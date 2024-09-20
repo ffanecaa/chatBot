@@ -1,0 +1,78 @@
+.containerChat {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(241, 81, 81);
+    width: 40vw;
+    height: 90vh;
+   
+    justify-content: space-evenly;
+  align-items: center;
+    background-color: #3b3939;
+    margin: 20px;
+   color:aliceblue;
+   box-shadow: 1px 1px 3px black;
+   border-radius: 10px;
+  }
+  
+  .headerChat{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  }
+  
+  .picture{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
+  
+  .picture img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+  }
+  .conversation{
+    min-height: 50px;
+    width: 80%;
+    background-color: aqua;
+    color:black
+  }
+  #form{
+    display: flex;
+    flex-direction: column;
+   
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  .textarea{
+     /* Ajusta la altura según sea necesario */
+    resize: none; /* Impide que el usuario redimensione el textarea */
+    padding: 10px; /* Agrega un poco de espacio interno */
+    border: 1px solid #ccc; /* Añade un borde ligero */
+    border-radius: 8px; /* Redondea las esquinas */
+    background-color: #f9f9f9; /* Color de fondo */
+    color: #333; /* Color del texto */
+    font-size: 16px; /* Tamaño de fuente */
+    box-shadow: 1px 1px 3px rgba(189, 177, 177, 0.1); /* Sombra sutil */
+   
+    
+  }
+
+  .userMessage {
+    background-color: #e0f7fa;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 10px 0;
+    color: #00796b;
+  }
+  
+  .systemMessage {
+    background-color: #f1f8e9;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 10px 0;
+    color: #33691e;
+  }
+  
