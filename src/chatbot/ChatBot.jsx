@@ -80,8 +80,8 @@ function ChatBot() {
         <textarea
           name="textarea"
           id="textarea"
-          cols="60"
-          rows="10"
+          cols="40"
+          rows="5"
           placeholder="Escribe aquí"
           onChange={handleInput}
           value={userInput}
